@@ -14,7 +14,7 @@ namespace SELab55555.Controllers
         public PersonController()
             //uygtyftrdfrdruutdrtr
         {
-           _db= new PhoneBookDbEntities();
+           _db =    new PhoneBookDbEntities();
         }
         // GET: Person
         public ActionResult Index()
